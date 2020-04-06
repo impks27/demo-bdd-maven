@@ -12,10 +12,10 @@ import org.springframework.http.HttpStatus;
 
 import cucumber.api.java8.En;
 
-public class BagCucmberStepDefinitions extends SpringCucumberIntegrationTests implements En {
-	private final Logger log = LoggerFactory.getLogger(BagCucmberStepDefinitions.class);
+public class BagCucumberStepDefinitions extends SpringCucumberIntegrationTests implements En {
+	private final Logger log = LoggerFactory.getLogger(BagCucumberStepDefinitions.class);
 
-	public BagCucmberStepDefinitions() {
+	public BagCucumberStepDefinitions() {
 
 		Given("the bag is empty", () -> {
 			clean();
